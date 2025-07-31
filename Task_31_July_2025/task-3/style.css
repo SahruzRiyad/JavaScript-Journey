@@ -1,0 +1,144 @@
+/* General Body Styling */
+body {
+    background-color: #d8d8d8;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Main Popup Container with White Border and Shadow */
+.popup-container {
+    position: relative;
+    background-color: #fff; /* This creates the white border */
+    padding: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 750px;
+    max-width: 100%;
+}
+
+.popup-container.hidden {
+    display: none;
+}
+
+/* Green Content Area with Background Image */
+.popup-content {
+ 
+    background-image: url('./background-img.jpg'); 
+    background-size: cover;
+    background-position: center;
+    padding: 70px 50px 30px 50px;
+    text-align: center;
+    color: #fff;
+}
+
+/* Timer Box Positioned on Top */
+.timer-box {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 10px 25px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    z-index: 2;
+    white-space: nowrap;
+}
+
+.timer-box p {
+    margin: 0;
+    color: #666;
+    font-size: 14px;
+}
+
+.timer {
+    font-size: 36px;
+    font-weight: bold;
+    color: #e99e4b;
+    line-height: 1.2;
+}
+
+/* Close Button (X) */
+.close-btn {
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    font-size: 20px;
+    color: #888;
+    line-height: 26px; /* Vertically center the 'x' */
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 3;
+}
+
+.close-btn:hover {
+    color: #333;
+}
+
+/* Content Typography */
+h1 {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 58px;
+    font-weight: 400; /* The font is naturally bold */
+    margin: 15px 0 0 0;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.subtitle {
+    margin: 0 0 25px 0;
+    font-size: 18px;
+}
+
+/* Form Elements */
+form {
+    margin-bottom: 25px;
+}
+
+input[type="email"] {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+input[type="email"]::placeholder {
+    color: #999;
+}
+
+button[type="submit"] {
+    background-color: #e99e4b;
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #d88e3a;
+}
+
+/* Fine Print Text at the Bottom */
+.fine-print {
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0;
+}

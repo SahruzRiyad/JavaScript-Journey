@@ -8,6 +8,11 @@ body {
 }
 
 /* container wrapper */
+
+.faq-header {
+    display: none; /* Header is hidden on desktop */
+}
+
 .faq-widget-container {
     position: fixed;
     top: 50%;
@@ -16,6 +21,7 @@ body {
     z-index: 1000;
     display: flex;
     align-items: center;
+    padding: 0;
 }
 
 /* The panel holds the content */
@@ -125,4 +131,109 @@ body {
     text-decoration: underline; 
     text-decoration-color: #0073e6; 
     text-underline-offset: 3px; 
+}
+
+
+/* --- Responsive for mobile --- */
+@media (max-width: 600px) {
+
+    .faq-widget-container {
+        position: static;
+        transform: none;
+        display: block;
+    }
+
+    /* Position the tab fixed on the right side */
+    .faq-tab {
+        position: fixed;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%) rotate(180deg); /* Center and rotate */
+        z-index: 998; /* Keep it below the overlay and panel */
+        padding: 12px 8px;
+        font-size: 0.9rem;
+        background-color: #0062D2;
+        border-radius: 6px 0 0 6px;
+        transition: right 0.4s ease; /* For smooth hiding */
+    }
+
+    /* The panel is now a full-screen modal, hidden at the bottom */
+    .faq-panel {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        max-height: 100vh;
+        border-radius: 0;
+        box-shadow: none;
+        padding: 13px;
+        margin: 0;
+        opacity: 1;
+        z-index: 1001;
+        display: flex;
+        flex-direction: column;
+        
+        /* Slide up/down animation */
+        visibility: hidden;
+        transform: translateY(100%);
+        transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1), visibility 0.4s;
+    }
+
+    /* --- OPEN STATE ON MOBILE --- */
+    .faq-widget-container.is-open .faq-panel {
+        transform: translateY(0);
+        visibility: visible;
+    }
+
+    /* WHEN OPEN: Dislplay none*/
+    .faq-widget-container.is-open .faq-tab {
+        display: none;
+    }
+
+    /* Style the mobile header */
+    .faq-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 20px;
+        border-bottom: 1px solid #e0e0e0;
+        flex-shrink: 0;
+
+    }
+
+    .faq-title {
+        margin: 0;
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+
+    .faq-close-btn {
+        background: none; 
+        border: none; 
+        font-size: 2.2rem;
+        font-weight: 300;
+        line-height: 1;
+        cursor: pointer; 
+        color: #888; 
+        padding: 0 5px;
+    }
+  
+    .faq-content {
+        padding: 0 20px 20px 20px;
+        overflow-y: auto;
+        flex-grow: 1;
+    }
+
+    
+    .faq-search-form { 
+        position: relative; 
+        margin-top: 20px;   
+        margin-bottom: 20px;
+        margin-right: 23px;
+    }
+
+    .faq-arrow {
+        margin-right: 15px;
+    }
 }

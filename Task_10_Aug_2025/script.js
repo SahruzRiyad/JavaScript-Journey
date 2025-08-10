@@ -93,6 +93,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const searchInput = faqSearchForm.querySelector('.faq-search-input');
     searchInput.addEventListener('input', handleSearch);
 
+    const faqCloseBtn = document.getElementById('faq-close-btn');
+    faqCloseBtn.addEventListener('click', closeWidget)
+
     // Escape key press also close the widget
     document.addEventListener('keydown', (event) => {
         if (event.key === 'Escape') {
@@ -100,12 +103,8 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // contextSelector.addEventListener('change', (event) => {
-    //     const newContext = event.target.value;
-    //     document.body.dataset.pageContext = newContext;
-    //     renderFaqs(newContext);
-    // });
-
     // --- Render FAQS ---
     renderFaqs(faqsContent.default);
+
+
 });

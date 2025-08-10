@@ -1,0 +1,128 @@
+:root {
+    --faq-panel-width: 350px;
+}
+
+body {
+    font-family: sans-serif;
+    height: 200vh;
+}
+
+/* container wrapper */
+.faq-widget-container {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+}
+
+/* The panel holds the content */
+.faq-panel {
+    width: var(--faq-panel-width);
+    background: white;
+    padding: 24px;
+    border-radius: 16px 0 0 16px;
+    box-shadow: -5px 0px 25px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    max-height: 80vh;
+    margin-right: calc(-1 * var(--faq-panel-width)); /* e.g., margin-right: -350px; */
+    opacity: 0;
+    visibility: hidden; /* Hide from screen readers when closed */
+
+    /* Animation of the margin and opacity */
+    transition: margin-right 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+                opacity 0.3s ease,
+                visibility 0.4s;
+}
+
+/* The tab that toggles the panel */
+.faq-tab {
+    background-color: #0073e6;
+    color: white;
+    padding: 15px 10px;
+    cursor: pointer;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    border-radius: 8px 0 0 8px;
+    font-weight: bold;
+    user-select: none;
+    box-shadow: -2px 2px 8px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.2s;
+}
+.faq-tab:hover {
+    background-color: #005cb3;
+}
+
+/* 
+ * When the container has the .is-open class...
+ * ...we target the panel and bring its margin back to 0.
+*/
+.faq-widget-container.is-open .faq-panel {
+    margin-right: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/* --- Overlay and Panel Content Styling --- */
+.faq-overlay {
+    position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0; visibility: hidden;
+    transition: opacity 0.4s ease, visibility 0.4s ease;
+    z-index: 999;
+}
+
+.faq-widget-container.is-open + .faq-overlay {
+    opacity: 1; visibility: visible;
+}
+
+/* ---faq search form Styling --- */
+.faq-search-form { 
+    display: flex; 
+    align-items: center; 
+    position: relative; 
+    margin-bottom: 20px; 
+}
+
+.faq-search-form .search-icon { 
+    position: absolute; 
+    left: 12px; 
+    color: #888; 
+}
+
+.faq-search-input { 
+    width: 100%; 
+    padding: 10px 10px 10px 40px; 
+    border: 1px solid #ddd; 
+    border-radius: 20px; 
+    font-size: 1rem; 
+    outline: none; 
+}
+
+/* ---faq list Styling --- */
+.faq-list { 
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+    overflow-y: auto;
+}
+
+.faq-list li a { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 15px 5px; 
+    color: #0073e6; 
+    text-decoration: none; 
+    border-bottom: 1px solid #f0f0f0; 
+}
+
+.faq-list li a:hover .faq-text { 
+    text-decoration: underline; 
+    text-decoration-color: #0073e6; 
+    text-underline-offset: 3px; 
+}

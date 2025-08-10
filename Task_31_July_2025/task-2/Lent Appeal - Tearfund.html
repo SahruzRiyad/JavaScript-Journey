@@ -1,0 +1,1275 @@
+
+<main id="main">
+
+<div class="space-above-56">
+
+
+<div class="appeal-marques_strip bg-center bg-no-repeat bg-repeat-x h-64 lg:h-80" style="background-image: url(&#39;/assets-frontend/icons/marques/Lent Appeal.svg&#39;); background-color: #772C81"></div>
+<p class="sr-only">Lent Appeal</p>
+
+</div>
+
+<section class="space-above-56">
+
+<div class="items-center min-h-640 overflow-hidden relative w-full md:grid lg:min-h-[43.75vw]">
+
+    
+
+        <picture>
+            <source media="(max-width: 767px)" srcset="https://res.cloudinary.com/tearfund/image/fetch/c_scale,h_512/c_crop,h_512,w_767/f_auto/https://www.tearfund.org/-/media/tearfund/images/campaigns/lent-appeal-ratna/lent24chaser-landingpage1-amitrudro-tearfund.jpg 1x, https://res.cloudinary.com/tearfund/image/fetch/c_scale,h_1024/c_crop,h_1024,w_1534/f_auto/https://www.tearfund.org/-/media/tearfund/images/campaigns/lent-appeal-ratna/lent24chaser-landingpage1-amitrudro-tearfund.jpg 2x">
+            <source media="(min-width: 768px)" srcset="https://res.cloudinary.com/tearfund/image/fetch/c_scale,h_840/f_avif/https://www.tearfund.org/-/media/tearfund/images/campaigns/lent-appeal-ratna/lent24chaser-landingpage1-amitrudro-tearfund.jpg 1x, https://res.cloudinary.com/tearfund/image/fetch/c_scale,h_1680/f_avif/https://www.tearfund.org/-/media/tearfund/images/campaigns/lent-appeal-ratna/lent24chaser-landingpage1-amitrudro-tearfund.jpg 2x">
+            <img class="donate-widget__main-img block h-[250px] object-cover top-0 w-full sm:h-auto md:absolute md:h-full md:left-0 md:object-center" src="./Lent Appeal - Tearfund_files/lent24chaser-landingpage1-amitrudro-tearfund.jpg" data-resource-id="3267816280" alt="A woman in a brightly coloured outfit standing with a man holding a bible" fetchpriorty="high" style="transition-duration: 0s;">
+        </picture>
+
+    
+
+
+
+
+
+
+
+
+<form action="https://www.tearfund.org/api/sitecore/Giving/Donate" class="flex flex-col items-center inline-block relative w-full z-10 md:mt-80 md:mb-64 md:span-11 lg:mb-80 lg:span-9 md:start-2" method="post" x-data="donateWidget(&#39;one-off-priority&#39;)" x-init="setDefaultAmounts(&#39;1&#39;, &#39;1&#39;)">        <div class="bg-darknavy px-20 pb-40 pt-32 md:pb-32 lg:pt-32 md:pt-24 w-full md:rounded-10">
+
+
+                        <h1 class="text-40 text-yellow">Lent Appeal</h1>
+    
+
+        <p class="font-bold mb-24 mt-16 text-20 text-white  donate-secondary_text">Churches are at the heart of transformation. Will you help them meet rising needs this Easter?</p>
+    
+
+    
+    <fieldset x-show="showFrequencySelection" class="border-0 mt-24 mx-0 p-0">
+        <legend class="sr-only">How often would you like to donate?</legend>
+        <div class="flex text-inactivegrey">
+
+                <div class="border-r-2 w-1/2">
+                    <input @change="monthly = false; checkMonthlyUpsell();resetAmount();" class="donate__radio passes-focus sr-only" id="id90529473-frequency-once" name="frequency" type="radio" checked="checked" value="once" autocomplete="off">
+                    <label class="donate__label bg-white border-2 border-solid border-darknavy flex items-center justify-center h-full checked:bg-yellow checked:text-darkgrey cursor-pointer focus:border-focusblue font-bold inline-block pb-6 pt-8 rounded-l-6 text-20 text-center w-full" for="id90529473-frequency-once">
+                        <svg class="checked:inline-block mr-8 hidden" width="19" height="16" viewBox="0 0 19 16" focusable="false">
+                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <polygon points="5.40012479e-13 1.89848137e-15 19 1.89848137e-15 19 16 5.40012479e-13 16"></polygon>
+                                <polyline stroke="#333333" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="3 8.84886805 7.10675993 13 16 3"></polyline>
+                            </g>
+                        </svg>
+                        <span class="sr-only">Donate </span>
+                        <span>Once</span>
+                    </label>
+                </div>
+                <div class="border-l-2 w-1/2">
+                    <input @change="monthly = true;resetAmount();" class="donate__radio passes-focus sr-only" id="id90529473-frequency-monthly" name="frequency" type="radio" value="monthly" autocomplete="off">
+                    <label class="donate__label bg-white border-2 border-solid border-darknavy flex items-center justify-center h-full checked:bg-yellow checked:text-darkgrey cursor-pointer focus:border-focusblue font-bold hover:bg-lightblue inline-block pb-6 pt-8 rounded-r-6 text-20 text-center w-full" for="id90529473-frequency-monthly">
+                        <svg class="checked:inline-block  mr-8 hidden" width="19" height="16" viewBox="0 0 19 16" focusable="false">
+                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <polygon points="5.40012479e-13 1.89848137e-15 19 1.89848137e-15 19 16 5.40012479e-13 16"></polygon>
+                                <polyline stroke="#333333" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="3 8.84886805 7.10675993 13 16 3"></polyline>
+                            </g>
+                        </svg>
+                        <span class="sr-only">Donate </span>
+                        <span>Monthly</span>
+                    </label>
+                </div>
+
+        </div>
+    </fieldset>
+
+
+
+        <template x-if="true"></template>
+
+        
+            <div>
+
+
+                
+                <template x-if="monthly"></template>
+
+                <template x-if="!monthly"></template>
+
+                        
+                <fieldset class="border-0 mt-8 mx-0 p-0">
+                    <legend class="sr-only">How much would you like to donate as a single donation?</legend>
+                    <div class="flex text-inactivegrey">
+                            <div class="donate__label-container w-1/3">
+                                <input @change="amount = 1;customAmount = &#39;&#39;; amountOnce = 1;" class="donate__radio donate__radio--amount passes-focus sr-only" id="id90529473-singleamount-1" name="amount" type="radio" value="amount1" :checked="amountOnce == 1" autocomplete="off" checked="checked">
+                                <label class="donate__label bg-white border-2 border-solid border-darknavy cursor-pointer flex font-bold items-center justify-center min-h-48 p-3 relative text-20 text-center w-full hover:bg-lightblue checked:bg-yellow checked:text-darkgrey" for="id90529473-singleamount-1">
+
+                                        <span class="relative z-10">
+                                            £36
+                                                <span class="sr-only"> could provide access to safe drinking water for one person in a community in rural Bangladesh.</span>
+                                        </span>
+
+
+                                    <span class="donate__arrow--down absolute bg-yellow border-3 border-l-0 border-t-0 border-solid border-yellow checked:block focus:border-focusblue h-16 hidden inset-x-0 mx-auto rotate-45 rounded-br-3 w-16"></span>
+                                </label>
+                            </div>
+                            <div class="donate__label-container w-1/3">
+                                <input @change="amount = 2;customAmount = &#39;&#39;; amountOnce = 2;" class="donate__radio donate__radio--amount passes-focus sr-only" id="id90529473-singleamount-2" name="amount" type="radio" value="amount2" :checked="amountOnce == 2" autocomplete="off">
+                                <label class="donate__label bg-white border-2 border-solid border-darknavy cursor-pointer flex font-bold items-center justify-center min-h-48 p-3 relative text-20 text-center w-full hover:bg-lightblue checked:bg-yellow checked:text-darkgrey" for="id90529473-singleamount-2">
+
+                                        <span class="relative z-10">
+                                            £72
+                                                <span class="sr-only"> could provide a goat so people like Ratna can strengthen their livelihoods and feed their family.</span>
+                                        </span>
+
+
+                                    <span class="donate__arrow--down absolute bg-yellow border-3 border-l-0 border-t-0 border-solid border-yellow checked:block focus:border-focusblue h-16 hidden inset-x-0 mx-auto rotate-45 rounded-br-3 w-16"></span>
+                                </label>
+                            </div>
+                            <div class="donate__label-container w-1/3">
+                                <input @change="amount = 3;customAmount = &#39;&#39;; amountOnce = 3;" class="donate__radio donate__radio--amount passes-focus sr-only" id="id90529473-singleamount-3" name="amount" type="radio" value="amount3" :checked="amountOnce == 3" autocomplete="off">
+                                <label class="donate__label bg-white border-2 border-solid border-darknavy cursor-pointer flex font-bold items-center justify-center min-h-48 p-3 relative text-20 text-center w-full hover:bg-lightblue checked:bg-yellow checked:text-darkgrey" for="id90529473-singleamount-3">
+
+                                        <span class="relative z-10">
+                                            £105
+                                                <span class="sr-only"> could enable a year of church-led training for three people, transforming their community.</span>
+                                        </span>
+
+
+                                    <span class="donate__arrow--down absolute bg-yellow border-3 border-l-0 border-t-0 border-solid border-yellow checked:block focus:border-focusblue h-16 hidden inset-x-0 mx-auto rotate-45 rounded-br-3 w-16"></span>
+                                </label>
+                            </div>
+                    </div>
+                </fieldset>
+                <template x-if="(amountMonthly === 1 &amp;&amp; monthly)"></template>
+                        <template x-if="(amountOnce === 1 &amp;&amp; !monthly)"></template>
+                        
+                            <div class="flex items-center mb-12 mt-20">
+                                <p class="font-bold text-16 text-white" aria-hidden="true">
+                                    <span>
+                                        <span class="text-white lg:text-yellow"></span>
+                                            £36
+                                        could provide access to safe drinking water for one person in a community in rural Bangladesh.
+                                    </span>
+                                </p>
+                            </div>
+                        <template x-if="(amountMonthly === 2 &amp;&amp; monthly)"></template>
+                        <template x-if="(amountOnce === 2 &amp;&amp; !monthly)"></template>
+                        <template x-if="(amountMonthly === 3 &amp;&amp; monthly)"></template>
+                        <template x-if="(amountOnce === 3 &amp;&amp; !monthly)"></template>
+
+            </div>
+        <label for="id90529473-custom-amount" class="inline-block mb-8 mt-8 relative text-20 text-darkgrey w-full" aria-label="Donate custom amount in pounds">
+        <span class="absolute block font-bold ml-12 mt-10" aria-hidden="true">£</span>
+        
+        <input @keyup="enterCustomAmount" x-model="customAmount" id="id90529473-custom-amount" type="number" min="1" step="0.01" name="customAmount" class="donate__custom-amount input bg-white border-darknavy hover:bg-lightblue max-w-none outline-none pl-32 placeholder-midgrey text-20 pb-8" placeholder="Other amount">
+    </label>
+
+    <button type="submit" class="button button--yellow">Please donate</button>
+
+    <input type="hidden" name="appealID" value="{0AD734BD-FFA2-47AA-B93D-943E28370598}">
+
+    <div class="donate__fundraise-icon">
+        
+
+
+
+
+
+<a class="fr-digital-badge" href="https://www.fundraisingregulator.org.uk/validate?registrant=TEARFUND">
+    <img src="./Lent Appeal - Tearfund_files/white" alt="Fundraising Regulator badge with validation link" loading="lazy">
+</a>
+
+    </div>
+
+</div>
+</form>    <script nonce="">function donateWidget(n){var t=0;return{type:n,monthly:n.indexOf("monthly")!==-1,showFrequencySelection:n==="monthly-priority"||n==="one-off-priority",amount:1,amountMonthly:1,amountOnce:1,customAmount:"",monthlyUpsell:window.sessionStorage.getItem("monthlyUpsell")?!1:!0,cancelMonthlyUpsell:function(){window.sessionStorage.setItem("monthlyUpsell","no-show");this.monthlyUpsell=!1},checkMonthlyUpsell:function(){this.monthlyUpsell=window.sessionStorage.getItem("monthlyUpsell")?!1:!0},enterCustomAmount:function(n){var u,f,e=n.target,r=(f=(u=e.parentNode)===null||u===void 0?void 0:u.parentNode)===null||f===void 0?void 0:f.querySelectorAll(".donate__radio--amount"),i;if(r){for(i=0;i<r.length;i++)r[i].checked&&(t=i);r[t].checked=e.value?!1:!0}},setDefaultAmounts:function(n,t){this.amountMonthly=parseInt(n);this.amountOnce=parseInt(t);this.resetAmount()},resetAmount:function(){this.amount=this.monthly?this.amountMonthly:this.amountOnce}}}(function(){var i,u=3,n=(i=document.currentScript)===null||i===void 0?void 0:i.parentNode,f=function(){var t=n===null||n===void 0?void 0:n.querySelector(".donate-widget__main-img"),i;t&&(i=function(){var n=!1;return function(){window.setTimeout(function(){n||(t.style.transitionDuration="".concat(u,"s"),t.classList.remove("motion-safe:scale-120"),window.setTimeout(function(){t.style.transitionDuration="0s"},u*1e3),n=!0)},500)}}(),t.complete?i():t.addEventListener("load",i))},t=function(){return window.innerWidth<768?n===null||n===void 0?void 0:n.querySelector("form"):n===null||n===void 0?void 0:n.querySelector('button[type="submit"]')}(),r;t?(r=new IntersectionObserver(function(){if(t){var n=t.getBoundingClientRect();n.bottom>0&&n.top<window.innerHeight&&(r.unobserve(t),f())}}),r.observe(t)):f()})();window.addEventListener("DOMContentLoaded",function(){var n=document.querySelectorAll(".donate-secondary_text"),t=function(){n.forEach(function(n){var t=n===null||n===void 0?void 0:n.textContent;t&&n&&(n.innerHTML=t.replace(/\b(double|doubled)\b/gi,function(n){return'<span class="text-yellow">'.concat(n,"<\/span>")}))})};n&&t()})</script>
+
+
+</div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+<div class="video space-below pt-48 md:pt-64">
+
+<div class="md:grid print:hidden">
+<div class="md:span-19 md:start-4 lg:span-15 lg:start-6">
+    
+    <div class="video__container relative"><iframe src="./Lent Appeal - Tearfund_files/zJGbcxK4Tls.html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" rel="0" wmode="opaque" loading="lazy"></iframe></div>
+</div>
+</div>
+
+<div class="px-24 mt-16 md:grid md:px-0 lg:mt-24">
+    <div class="md:span-19 md:start-4 lg:span-15 lg:start-6">
+
+            <div class="flex">
+                <svg class="flex-shrink-0 mr-12" width="1.75rem" height="1.75rem" viewBox="0 0 28 28" focusable="false">
+                    <path fill="#008CAA" fill-rule="nonzero" d="M21.5,0 L4.5,0 C2.01471863,0 0,2.01471863 0,4.5 L0,21.5 C0,23.9852814 2.01471863,26 4.5,26 L21.5,26 C23.9852814,26 26,23.9852814 26,21.5 L26,4.5 C26,2.01471863 23.9852814,0 21.5,0 Z M4.5,3 L21.5,3 C22.3284271,3 23,3.67157288 23,4.5 L23,21.5 C23,22.3284271 22.3284271,23 21.5,23 L4.5,23 C3.67157288,23 3,22.3284271 3,21.5 L3,4.5 C3,3.67157288 3.67157288,3 4.5,3 Z"></path>
+                    <g stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(1, 6)">
+                        <circle fill="#008CAA" cx="7.5" cy="2.5" r="2.5"></circle>
+                        <path fill="#008CAA" fill-rule="nonzero" d="M15.6111965,5.19718781 C16.8376089,3.79352714 18.9373586,3.60484002 20.390966,4.73352859 L20.5622068,4.87530819 L24.2477968,8.12642674 L22.2632315,10.3762046 L18.5776414,7.12508602 C18.3912143,6.96219353 18.1209271,6.96091382 17.9355576,7.1086902 L17.8703542,7.17106882 L13.7231778,11.9176193 C12.5742151,13.2326368 10.6412772,13.4928604 9.19107903,12.5565546 L9.02596288,12.4432012 L7.66993392,11.4548499 C7.49797444,11.329516 7.26893023,11.3283448 7.09731641,11.4433383 L7.02761764,11.4997101 L2.08687118,16.2837722 L0,14.1285533 L4.94074646,9.34449113 C6.11477339,8.20769573 7.91055654,8.04008405 9.26945064,8.91559317 L9.43696036,9.03047008 L10.7929893,10.0188214 C10.9761727,10.1523359 11.2220419,10.1440765 11.3948355,10.0092337 L11.46402,9.94373828 L15.6111965,5.19718781 Z"></path>
+                    </g>
+                </svg>
+                
+                <p class="text-16 text-midgrey lg:text-18">Lent Appeal: There's still time to help people overcome poverty this Easter</p>
+            </div>
+        <p class="hidden mt-8 text-16 print:block">https://www.youtube.com/watch?v=zJGbcxK4Tls</p>
+
+        
+            <div class="mb-32 mt-16 lg:mb-48">
+                
+
+
+
+
+
+
+<button class="audio-player--toggle-button bg-lightblue hover:bg-linkblue border-0 flex font-bold items-center justify-between mt-8 passes-hover px-20 py-12 relative rounded-t-6 text-18 w-full md:px-40 lg:font-bold lg:mt-12 lg:py-[0.875rem] lg:text-20 hover:text-white" aria-controls="transcript-id21408140" id="btn-transcript-id21408140" aria-expanded="false">
+<span class="flex items-center">
+    <svg class="h-40 w-40 mr-8 text-blue lg:h-52 lg:w-52 hover:text-white" width="40" height="40" viewBox="0 0 50 52" focusable="false" aria-hidden="true">
+        <g id="Group-4" transform="translate(2.576333, 9.656818)" fill="currentColor" fill-rule="nonzero">
+            <path d="M41.8207255,0 C42.9391021,0 43.8457255,0.906623382 43.8457255,2.025 C43.8457255,3.09254132 43.0196492,3.96714219 41.9718536,4.04444569 L41.8207255,4.05 L2.02660784,4.05 C0.908231225,4.05 0.00160784314,3.14337662 0.00160784314,2.025 C0.00160784314,0.957458682 0.827684106,0.0828578141 1.87547972,0.00555430814 L2.02660784,0 L41.8207255,0 Z"></path>
+            <path d="M30.889,9.54545455 C32.0073766,9.54545455 32.914,10.4520779 32.914,11.5704545 C32.914,12.6379959 32.0879237,13.5125967 31.0401281,13.5899002 L30.889,13.5954545 L2.025,13.5954545 C0.906623382,13.5954545 0,12.6888312 0,11.5704545 C0,10.5029132 0.826076263,9.62831236 1.87387188,9.55100885 L2.025,9.54545455 L30.889,9.54545455 Z"></path>
+            <path d="M30.889,19.0909091 C32.0073766,19.0909091 32.914,19.9975325 32.914,21.1159091 C32.914,22.1834504 32.0879237,23.0580513 31.0401281,23.1353548 L30.889,23.1409091 L2.025,23.1409091 C0.906623382,23.1409091 0,22.2342857 0,21.1159091 C0,20.0483678 0.826076263,19.1737669 1.87387188,19.0964634 L2.025,19.0909091 L30.889,19.0909091 Z"></path>
+            <path d="M41.8207255,28.6363636 C42.9391021,28.6363636 43.8457255,29.542987 43.8457255,30.6613636 C43.8457255,31.728905 43.0196492,32.6035058 41.9718536,32.6808093 L41.8207255,32.6863636 L2.02660784,32.6863636 C0.908231225,32.6863636 0.00160784314,31.7797403 0.00160784314,30.6613636 C0.00160784314,29.5938223 0.827684106,28.7192215 1.87547972,28.6419179 L2.02660784,28.6363636 L41.8207255,28.6363636 Z"></path>
+        </g>
+    </svg>
+    <span>View transcript</span>
+</span>
+<svg class="motion-safe:duration-300 h-14 transition-transform w-20 lg:h-20 lg:w-24" width="20" height="14" viewBox="0 0 20 14" focusable="false" aria-hidden="true">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <polyline stroke="currentColor" stroke-width="3" points="3 3 10 11 17 3"></polyline>
+    </g>
+</svg>
+<span class="audio-player--line absolute block left-0 overflow-hidden w-full" aria-hidden="true">
+    <span class="bg-blue hover:bg-darknavy block motion-safe:duration-500 h-10 relative w-full" style="transition-property: left;"></span>
+</span>
+</button>
+<div class="transcript-container relative" id="transcript-container-id21408140">
+<div class="bg-white motion-safe:duration-700 overflow-hidden px-20 rounded-b-6 wod-audio-section-bg md:px-40 relative" id="transcript-id21408140" style="max-height: 0px; display: none; overflow-y: hidden;">
+    <div class="pt-28 md:pt-32 pb-48">
+        <div class="body-text mt-56 text-16 lg:text-18"><p><strong>Churches are at the heart of transformation. Will you help them meet rising needs this Easter?</strong></p>
+<p><strong>Joseph Biswas:</strong> My name is Joseph&nbsp;Biswas.</p>
+<p><strong>Ratna Biswas:</strong> I am Ratna&nbsp;Biswas.</p>
+<p><strong><em>In Bangladesh, around 35 million people are experiencing hunger daily.</em></strong></p>
+<p><strong>Joseph and Ratna are another family facing the same desperate situation. And the climate crisis has worsened the already brutal monsoon conditions.</strong></p>
+<p><strong>When their local church reached out to them, Joseph and Ratna decided to join Tearfund’s Transforming Communities programme taking place there.</strong></p>
+<p><strong>The training Joseph and Ratna joined included looking at ways to improve the village, such as restoring the village pond to provide clean water to the community, while introducing new ways to earn a living, such as breeding goats.</strong></p>
+<p><strong>Joseph Biswas:</strong> Our family has been struggling with poverty. We were in a lot of trouble because of&nbsp;this.</p>
+<p><strong>This Lent, your gift of £72 could provide families like Joseph and Ratna’s with a goat, empowering them to feed their children and strengthen their livelihoods.</strong></p>
+<p><strong>Ratna Biswas:</strong> The pond was very dirty and unusable. The water of the pond was polluted, it was unfit for use. We informed Tearfund and Shalom (Tearfund partner) about this pond, "We, a lot of people live here, but we suffer from lack of clean water." After consulting with them, arrangements were made to repair the pond. They said that the pond would be repaired by building a dam around the pond to make it usable for&nbsp;us.</p>
+<p>Sunita, Taslima, Monica and I took the initiative together. Now it is possible to take a bath and the water is much more usable, I hope it will improve further. In addition, Transforming Communities gave me two goats, out of which I sold one goat, one gave birth to a baby, now I have two goats. I have benefitted a lot from getting a goat. With my three children, it is difficult for me to bear the cost of their&nbsp;education.</p>
+<p>However, I am doing well now, thanks to God, I used to have one meal a day, now I can eat three meals a day, I can educate my children. I think there has been a lot of improvement in people's lives but more needs to be&nbsp;done.</p>
+<p><strong>Needs are rising – there’s still time to help people overcome poverty through the church this Easter.</strong></p>
+<p><strong>Please donate now<br>
+tearfund.org/lentappeal24</strong></p></div>
+    </div>
+
+</div>
+</div>
+<script nonce="">var setupExpandedSection=function(n,t){var l={MOBILE:450,DESKTOP:600},r=document.querySelector("#btn-".concat(n,"-").concat(t)),i=document.querySelector("#".concat(n,"-").concat(t)),o=document.querySelector("#transcript-close-panel-".concat(t)),h=document.querySelector("#transcript-close-panel-".concat(t,"-container")),a=document.querySelector("#transcript-container-".concat(t)),v=!1,c,u,s,f,y,e;r&&i&&(i.style.maxHeight="0px",i.style.display="none",u=function(){window.clearTimeout(c);r.getAttribute("aria-expanded")==="true"?(i.style.display="block",c=window.setTimeout(function(){var n=window.innerWidth>=768?l.DESKTOP:l.MOBILE;i.style.overflowY="scroll";i.style.maxHeight="".concat(i.scrollHeight>n?n:i.scrollHeight,"px")},100)):(i.style.overflowY="hidden",i.style.maxHeight="0px",c=window.setTimeout(function(){i.style.display="none"},700))},r.setAttribute("aria-expanded","false"),r.addEventListener("click",function(){r.getAttribute("aria-expanded")==="false"?(r.setAttribute("aria-expanded","true"),v&&r.dataset.paneltype!=="subscribe"&&o&&e(!0)):(r.setAttribute("aria-expanded","false"),o&&e(!1));u()}),window.addEventListener("resize",u),s=document.querySelector("#transcript-read-more-".concat(t)),f=document.querySelector("#transcriptPart2-".concat(t)),s&&f&&(f.style.display="none",s.addEventListener("click",function(){y()})),y=function(){v=!0;s.remove();f.style.display="block";window.setTimeout(function(){var n=f.querySelector("*");n.setAttribute("tabindex","-1");n.focus();u();e(!0)},1)},e=function(n){n&&h?(h.classList.add("fadeIn"),a.classList.add("open-transcript")):(h.classList.remove("fadeIn"),a.classList.remove("open-transcript"))},o&&o.addEventListener("click",function(){e(!1);r.setAttribute("aria-expanded","false");u()}))}</script>
+<script nonce="">setupExpandedSection('transcript', 'id21408140');</script>
+
+            </div>
+                            <div class="bg-lightgrey my-16 h-2 w-full lg:my-24"></div>
+
+    </div>
+</div>
+
+</div>
+
+
+
+
+
+<div class="body-text container mt-48 md:mt-56 space-below md:grid lg:mt-72 md:no-container">
+<div class="text-18 md:start-4 md:span-19 lg:start-6 lg:span-15 lg:text-20">
+    <h2 id="a5f55eebd-9d89-451b-a9b3-726035a663bc">Transforming communities</h2>
+<p>Around the world, needs are rising at an unprecedented rate. At the same time, Tearfund’s costs are soaring and our resources are being stretched to their&nbsp;limit.</p>
+<p><strong>This Easter, will you help equip churches around the world to transform their communities and help people lift themselves out of poverty?</strong></p>
+</div>
+
+
+
+</div>
+
+
+
+
+
+<section class="relative space-above-80 text-white lg:grid lg:space-above-0 lg:space-below lg:pt-64">
+
+<div class="bg-darknavy pb-48 pt-40 md:pb-64 md:pt-56 lg:pt-64 px-24 md:grid md:px-0 lg:block lg:relative lg:rounded-10 lg:start-2 lg:span-23">
+
+<div class="items-center relative md:span-19 md:start-4 lg:grid-12">
+    <h2 class="text-26 md:text-30 lg:span-13 lg:start-3">Your generous gift of £72 could provide a goat so people like Ratna and Joseph can strengthen their livelihoods and feed their family.</h2>
+    
+    <a class="ga-campaign-cta-button button button--yellow font-bold mt-32 px-24 md:inline-block md:min-w-[14rem] md:w-auto lg:mt-0 lg:row-start-1 lg:span-5 lg:start-17" href="https://www.tearfund.org/get-involved/donate/donation-forms/donation-form?appeal=0AD734BDFFA247AAB93D943E28370598&amp;amount=72">Donate now</a>
+</div>
+
+</div>
+
+</section>
+
+
+
+
+
+<div class="body-text container mt-48 md:mt-56 space-below md:grid lg:mt-72 md:no-container">
+<div class="text-18 md:start-4 md:span-19 lg:start-6 lg:span-15 lg:text-20">
+    <h3 id="a2fb90769-bd50-4b5a-b861-eea1fbaa8afc">Facing extreme poverty</h3>
+<p><strong>In Bangladesh, Joseph and Ratna faced a life of extreme poverty.</strong></p>
+<p>The rising cost of food plus the climate crisis, which has worsened the already brutal monsoon conditions in Bangladesh, held them back from making any progress. Then they decided to join Tearfund’s Transforming Communities programme run through their local church and their lives began to change&nbsp;radically.</p>
+<p>As part of the programme, they joined a Bible study group where members pray for each other, share skills and resources, and find solutions to their poverty. Through this, Joseph and Ratna were given two goats, providing a source of&nbsp;income.</p>
+<p>'I used to have one meal a day, now I can eat three meals a day, and I can educate my children,’ says Ratna. ‘I think these are possible by the grace of&nbsp;God.'</p>
+<p><strong>Joseph and Ratna’s local church helped them overcome extreme poverty. <a rel="noopener" target="_blank" href="https://www.tearfund.org/get-involved/donate/donation-forms/donation-form?Appeal=0AD734BDFFA247AAB93D943E28370598&amp;amount=72" class="newtab"><span>Please donate now and help more churches do the same around the world.</span><svg aria-label="Opens in new tab" class="align-middle h-auto mb-2 ml-2 text-blue w-20 lg:mb-4" focusable="false" height="20" viewBox="0 0 28 28" width="20"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" transform="translate(3, 3)"><line x1="22" x2="11" y1="0" y2="11"></line><path d="M6.30235283,0 L2,0 C0.8954305,2.02906125e-16 -1.3527075e-16,0.8954305 0,2 L0,20 C1.3527075e-16,21.1045695 0.8954305,22 2,22 L20,22 C21.1045695,22 22,21.1045695 22,20 L22,15.5696869 L22,15.5696869"></path><polyline points="13 0 22 0 22 9"></polyline></g></svg></a> Poverty is not God’s plan. You are.</strong></p>
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+<section class="stats-panel bg-darknavy overflow-hidden py-40 relative space-above-56 text-center lg:pb-80 lg:pt-64 lg:space-above-80">
+
+<h2 class="px-48 text-26 text-white md:text-30 lg:text-40">Impact of our community training</h2>
+<div class="bg-yellow h-4 mt-16 mx-auto w-48 lg:h-6 lg:w-64"></div>
+
+
+    <div class="stats__carousel-sm mt-32 overflow-hidden no-outline relative md:hidden flickity-enabled is-draggable" aria-live="polite" tabindex="-1" style="height: 50px;">
+        
+        
+        
+<div class="flickity-viewport" style="height: 0px; touch-action: pan-y;"><div class="flickity-slider" style="left: 0px;"><div class="carousel-cell bg-white flex items-center justify-center py-24 px-20 rounded-10 is-selected" style="position: absolute; height: 0px; opacity: 0.5; transform: scale(0.9);">
+            <div>
+                <img class="w-120" height="120" width="120" src="./Lent Appeal - Tearfund_files/Water%20tanks.svg" alt="" loading="lazy">
+                <p class="mt-12">
+                    <span class="sr-only">Slide 1 of 3:</span>
+                    <span class="block text-40 text-blue">9 out of 10</span>
+                    <span class="block font-bold mt-8 text-16 text-darkgrey">communities who receive our innovative training go on to improve or build facilities like water points, schools and health clinics</span>
+                </p>
+            </div>
+        </div><div class="carousel-cell bg-white flex items-center justify-center py-24 px-20 rounded-10" aria-hidden="true" style="position: absolute; height: 0px; opacity: 0.5; transform: scale(0.9);">
+            <div>
+                <img class="w-120" height="120" width="120" src="./Lent Appeal - Tearfund_files/Money%20-%20sterling.svg" alt="" loading="lazy">
+                <p class="mt-12">
+                    <span class="sr-only">Slide 2 of 3:</span>
+                    <span class="block text-40 text-blue">x7</span>
+                    <span class="block font-bold mt-8 text-16 text-darkgrey">Your gifts help communities multiply every £1 invested in the training by seven</span>
+                </p>
+            </div>
+        </div><div class="carousel-cell bg-white flex items-center justify-center py-24 px-20 rounded-10" aria-hidden="true" style="position: absolute; height: 0px; opacity: 0.5; transform: scale(0.9);">
+            <div>
+                <img class="w-120" height="120" width="120" src="./Lent Appeal - Tearfund_files/Increase.svg" alt="" loading="lazy">
+                <p class="mt-12">
+                    <span class="sr-only">Slide 3 of 3:</span>
+                    <span class="block text-40 text-blue">£211</span>
+                    <span class="block font-bold mt-8 text-16 text-darkgrey">of value can be created from every £1 invested in our life-changing training, alongside community contributions</span>
+                </p>
+            </div>
+        </div></div></div><button class="flickity-button flickity-prev-next-button previous" type="button" aria-label="Previous"><svg class="flickity-button-icon" viewBox="0 0 100 100"><path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z" class="arrow"></path></svg></button><button class="flickity-button flickity-prev-next-button next" type="button" aria-label="Next"><svg class="flickity-button-icon" viewBox="0 0 100 100"><path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z" class="arrow" transform="translate(100, 100) rotate(180) "></path></svg></button><ol class="flickity-page-dots"><li class="dot is-selected" aria-label="Page dot 1" aria-current="step"></li><li class="dot single-line" aria-label="Page dot 2"></li><li class="dot single-line" aria-label="Page dot 3"></li></ol></div>
+
+
+<div class="hidden mt-40 z-10 md:grid lg:mt-48">
+
+
+
+<div class="bg-white overflow-hidden relative span-19 start-4 rounded-10 lg:span-23 lg:start-2">
+    <ul class="flex-wrap pb-48 px-40 md:pb-56 lg:px-40 lg:py-64 relative lg:flex" role="list">
+            <li class="flex items-center pt-48 lg:pt-0 lg:block lg:px-24 lg:w-1/3">
+                <img class="h-144 w-144 lg:h-160 lg:w-160" height="144" width="144" src="./Lent Appeal - Tearfund_files/Water%20tanks.svg" alt="" loading="lazy">
+                <p class="pl-32 text-left lg:mt-24 lg:pl-0 lg:text-center">
+                    <span class="block text-52  text-blue">9 out of 10</span>
+                    <span class="block font-bold mt-12 text-18 text-darkgrey ">communities who receive our innovative training go on to improve or build facilities like water points, schools and health clinics</span>
+                </p>
+            </li>
+            <li class="flex items-center pt-48 lg:pt-0 lg:block lg:px-24 lg:w-1/3">
+                <img class="h-144 w-144 lg:h-160 lg:w-160" height="144" width="144" src="./Lent Appeal - Tearfund_files/Money%20-%20sterling.svg" alt="" loading="lazy">
+                <p class="pl-32 text-left lg:mt-24 lg:pl-0 lg:text-center">
+                    <span class="block text-52  text-blue">x7</span>
+                    <span class="block font-bold mt-12 text-18 text-darkgrey ">Your gifts help communities multiply every £1 invested in the training by seven</span>
+                </p>
+            </li>
+            <li class="flex items-center pt-48 lg:pt-0 lg:block lg:px-24 lg:w-1/3">
+                <img class="h-144 w-144 lg:h-160 lg:w-160" height="144" width="144" src="./Lent Appeal - Tearfund_files/Increase.svg" alt="" loading="lazy">
+                <p class="pl-32 text-left lg:mt-24 lg:pl-0 lg:text-center">
+                    <span class="block text-52  text-blue">£211</span>
+                    <span class="block font-bold mt-12 text-18 text-darkgrey ">of value can be created from every £1 invested in our life-changing training, alongside community contributions</span>
+                </p>
+            </li>
+    </ul>
+
+    
+
+</div>
+
+</div>
+
+<script nonce="">window.addEventListener("js-loaded",function(){loadScript("/assets-frontend/scripts/flickity.pkgd.min.js",function(){for(var t=function(n){return Math.round(n*1e3)/1e3},i=document.querySelectorAll(".stats__carousel-sm"),r=function(n){var f,u=i[n],r=u.querySelectorAll(".stats__carousel-sm .carousel-cell"),e=u.parentNode.classList.contains("bg-yellow")?.8:.5,o=function(){var o,i;f=new Flickity(u,{wrapAround:r.length>2,groupCells:1.5,adaptiveHeight:!0});o=function(){for(var i,n,f,t=0;t<r.length;t++)r[t].style.height="auto";for(i=0,n=0;n<r.length;n++)r[n].scrollHeight>i&&(i=r[n].scrollHeight);for(f=0;f<r.length;f++)r[f].style.height=i+"px";u.setAttribute("tabindex","-1")};o();var n=(window.innerWidth-r[1].getBoundingClientRect().width)/2,s=function(){for(var u,o,f,s,i=0;i<r.length;i++)u=r[i].getBoundingClientRect(),o=void 0,o=u.x<n?(n-u.x)/u.width:(u.x-n)/u.width,f=t(1-o*.3),f>.95?f=1:f<e&&(f=e),r[i].style.opacity="".concat(f),s=t(1-o*.1),s<.9&&(s=.9),r[i].style.transform="scale("+s+")"};s();f.on("scroll",s);i=u.querySelector(".stats-panel .flickity-viewport");i&&(u.style.height=i.scrollHeight+50+"px")};(r===null||r===void 0?void 0:r.length)>1&&(window.addEventListener("resize",function(){o()}),o())},n=0;n<i.length;n++)r(n)})})</script>
+
+</section>
+
+
+
+
+
+
+
+
+<section class="space-above-56">
+
+<div class="items-center min-h-640 overflow-hidden relative w-full md:grid lg:min-h-[43.75vw]">
+
+    
+
+        <picture>
+            <source media="(max-width: 767px)" srcset="https://res.cloudinary.com/tearfund/image/fetch/c_scale,h_512/c_crop,h_512,w_767/f_auto/https://www.tearfund.org/-/media/tearfund/images/campaigns/lent-appeal-ratna/lent24chaser-landingpage2-amitrudro-tearfund.jpg 1x, https://res.cloudinary.com/tearfund/image/fetch/c_scale,h_1024/c_crop,h_1024,w_1534/f_auto/https://www.tearfund.org/-/media/tearfund/images/campaigns/lent-appeal-ratna/lent24chaser-landingpage2-amitrudro-tearfund.jpg 2x">
+            <source media="(min-width: 768px)" srcset="https://res.cloudinary.com/tearfund/image/fetch/c_scale,h_840/f_avif/https://www.tearfund.org/-/media/tearfund/images/campaigns/lent-appeal-ratna/lent24chaser-landingpage2-amitrudro-tearfund.jpg 1x, https://res.cloudinary.com/tearfund/image/fetch/c_scale,h_1680/f_avif/https://www.tearfund.org/-/media/tearfund/images/campaigns/lent-appeal-ratna/lent24chaser-landingpage2-amitrudro-tearfund.jpg 2x">
+            <img class="donate-widget__main-img block h-[250px] object-cover top-0 w-full sm:h-auto md:absolute md:h-full md:left-0 md:object-center" src="./Lent Appeal - Tearfund_files/lent24chaser-landingpage2-amitrudro-tearfund.jpg" data-resource-id="3242542505" alt="A woman sitting in a room" loading="lazy" style="transition-duration: 0s;">
+        </picture>
+
+    
+
+
+
+
+
+
+
+
+<form action="https://www.tearfund.org/api/sitecore/Giving/Donate" class="flex flex-col items-center inline-block relative w-full z-10 md:mt-80 md:mb-64 md:span-11 lg:mb-80 lg:span-9 md:start-2" method="post" x-data="donateWidget(&#39;one-off-priority&#39;)" x-init="setDefaultAmounts(&#39;1&#39;, &#39;1&#39;)" data-gtm-form-interact-id="0">        <div class="bg-darknavy px-20 pb-40 pt-32 md:pb-32 lg:pt-32 md:pt-24 w-full md:rounded-10">
+
+
+                        <h2 class="text-40 text-yellow">Donate to Tearfund’s Lent Appeal</h2>
+    
+
+        <p class="font-bold mb-24 mt-16 text-20 text-white  donate-secondary_text"></p>
+    
+
+    
+    <fieldset x-show="showFrequencySelection" class="border-0 mt-24 mx-0 p-0">
+        <legend class="sr-only">How often would you like to donate?</legend>
+        <div class="flex text-inactivegrey">
+
+                <div class="border-r-2 w-1/2">
+                    <input @change="monthly = false; checkMonthlyUpsell();resetAmount();" class="donate__radio passes-focus sr-only" id="idaeec80df-frequency-once" name="frequency" type="radio" checked="checked" value="once" autocomplete="off" data-gtm-form-interact-field-id="3">
+                    <label class="donate__label bg-white border-2 border-solid border-darknavy flex items-center justify-center h-full checked:bg-yellow checked:text-darkgrey cursor-pointer focus:border-focusblue font-bold inline-block pb-6 pt-8 rounded-l-6 text-20 text-center w-full" for="idaeec80df-frequency-once">
+                        <svg class="checked:inline-block mr-8 hidden" width="19" height="16" viewBox="0 0 19 16" focusable="false">
+                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <polygon points="5.40012479e-13 1.89848137e-15 19 1.89848137e-15 19 16 5.40012479e-13 16"></polygon>
+                                <polyline stroke="#333333" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="3 8.84886805 7.10675993 13 16 3"></polyline>
+                            </g>
+                        </svg>
+                        <span class="sr-only">Donate </span>
+                        <span>Once</span>
+                    </label>
+                </div>
+                <div class="border-l-2 w-1/2">
+                    <input @change="monthly = true;resetAmount();" class="donate__radio passes-focus sr-only" id="idaeec80df-frequency-monthly" name="frequency" type="radio" value="monthly" autocomplete="off" data-gtm-form-interact-field-id="2">
+                    <label class="donate__label bg-white border-2 border-solid border-darknavy flex items-center justify-center h-full checked:bg-yellow checked:text-darkgrey cursor-pointer focus:border-focusblue font-bold hover:bg-lightblue inline-block pb-6 pt-8 rounded-r-6 text-20 text-center w-full" for="idaeec80df-frequency-monthly">
+                        <svg class="checked:inline-block  mr-8 hidden" width="19" height="16" viewBox="0 0 19 16" focusable="false">
+                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <polygon points="5.40012479e-13 1.89848137e-15 19 1.89848137e-15 19 16 5.40012479e-13 16"></polygon>
+                                <polyline stroke="#333333" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="3 8.84886805 7.10675993 13 16 3"></polyline>
+                            </g>
+                        </svg>
+                        <span class="sr-only">Donate </span>
+                        <span>Monthly</span>
+                    </label>
+                </div>
+
+        </div>
+    </fieldset>
+
+
+
+        <template x-if="true"></template>
+
+        
+            <div>
+
+
+                
+                <template x-if="monthly"></template>
+
+                
+                
+                
+                
+                <template x-if="!monthly"></template>
+
+                        
+                
+                
+                
+                
+                <fieldset class="border-0 mt-8 mx-0 p-0">
+                    <legend class="sr-only">How much would you like to donate as a single donation?</legend>
+                    <div class="flex text-inactivegrey">
+                            <div class="donate__label-container w-1/3">
+                                <input @change="amount = 1;customAmount = &#39;&#39;; amountOnce = 1;" class="donate__radio donate__radio--amount passes-focus sr-only" id="idaeec80df-singleamount-1" name="amount" type="radio" value="amount1" :checked="amountOnce == 1" autocomplete="off">
+                                <label class="donate__label bg-white border-2 border-solid border-darknavy cursor-pointer flex font-bold items-center justify-center min-h-48 p-3 relative text-20 text-center w-full hover:bg-lightblue checked:bg-yellow checked:text-darkgrey" for="idaeec80df-singleamount-1">
+
+                                        <span class="relative z-10">
+                                            £36
+                                                <span class="sr-only"> could provide access to safe drinking water for one person in a community in rural Bangladesh.</span>
+                                        </span>
+
+
+                                    <span class="donate__arrow--down absolute bg-yellow border-3 border-l-0 border-t-0 border-solid border-yellow checked:block focus:border-focusblue h-16 hidden inset-x-0 mx-auto rotate-45 rounded-br-3 w-16"></span>
+                                </label>
+                            </div>
+                            <div class="donate__label-container w-1/3">
+                                <input @change="amount = 2;customAmount = &#39;&#39;; amountOnce = 2;" class="donate__radio donate__radio--amount passes-focus sr-only" id="idaeec80df-singleamount-2" name="amount" type="radio" value="amount2" :checked="amountOnce == 2" autocomplete="off">
+                                <label class="donate__label bg-white border-2 border-solid border-darknavy cursor-pointer flex font-bold items-center justify-center min-h-48 p-3 relative text-20 text-center w-full hover:bg-lightblue checked:bg-yellow checked:text-darkgrey" for="idaeec80df-singleamount-2">
+
+                                        <span class="relative z-10">
+                                            £72
+                                                <span class="sr-only"> could provide a goat so people like Ratna can strengthen their livelihoods and feed their family.</span>
+                                        </span>
+
+
+                                    <span class="donate__arrow--down absolute bg-yellow border-3 border-l-0 border-t-0 border-solid border-yellow checked:block focus:border-focusblue h-16 hidden inset-x-0 mx-auto rotate-45 rounded-br-3 w-16"></span>
+                                </label>
+                            </div>
+                            <div class="donate__label-container w-1/3">
+                                <input @change="amount = 3;customAmount = &#39;&#39;; amountOnce = 3;" class="donate__radio donate__radio--amount passes-focus sr-only" id="idaeec80df-singleamount-3" name="amount" type="radio" value="amount3" :checked="amountOnce == 3" autocomplete="off" checked="checked">
+                                <label class="donate__label bg-white border-2 border-solid border-darknavy cursor-pointer flex font-bold items-center justify-center min-h-48 p-3 relative text-20 text-center w-full hover:bg-lightblue checked:bg-yellow checked:text-darkgrey" for="idaeec80df-singleamount-3">
+
+                                        <span class="relative z-10">
+                                            £105
+                                                <span class="sr-only"> could enable a year of church-led training for three people, transforming their community.</span>
+                                        </span>
+
+
+                                    <span class="donate__arrow--down absolute bg-yellow border-3 border-l-0 border-t-0 border-solid border-yellow checked:block focus:border-focusblue h-16 hidden inset-x-0 mx-auto rotate-45 rounded-br-3 w-16"></span>
+                                </label>
+                            </div>
+                    </div>
+                </fieldset>
+                <template x-if="(amountMonthly === 1 &amp;&amp; monthly)"></template>
+                        
+                            
+                        
+                            
+                        <template x-if="(amountOnce === 1 &amp;&amp; !monthly)"></template>
+                        
+                            
+                        <template x-if="(amountMonthly === 2 &amp;&amp; monthly)"></template>
+                        
+                            
+                        <template x-if="(amountOnce === 2 &amp;&amp; !monthly)"></template>
+                        
+                            
+                        <template x-if="(amountMonthly === 3 &amp;&amp; monthly)"></template>
+                        <template x-if="(amountOnce === 3 &amp;&amp; !monthly)"></template>
+
+            
+                            
+                        
+                            
+                        
+                            <div class="flex items-center mb-12 mt-20">
+                                <p class="font-bold text-16 text-white" aria-hidden="true">
+                                    <span>
+                                        <span class="text-white lg:text-yellow"></span>
+                                            £105
+                                        could enable a year of church-led training for three people, transforming their community.
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+        <label for="idaeec80df-custom-amount" class="inline-block mb-8 mt-8 relative text-20 text-darkgrey w-full" aria-label="Donate custom amount in pounds">
+        <span class="absolute block font-bold ml-12 mt-10" aria-hidden="true">£</span>
+        
+        <input @keyup="enterCustomAmount" x-model="customAmount" id="idaeec80df-custom-amount" type="number" min="1" step="0.01" name="customAmount" class="donate__custom-amount input bg-white border-darknavy hover:bg-lightblue max-w-none outline-none pl-32 placeholder-midgrey text-20 pb-8" placeholder="Other amount">
+    </label>
+
+    <button type="submit" class="button button--yellow">Please donate</button>
+
+    <input type="hidden" name="appealID" value="{0AD734BD-FFA2-47AA-B93D-943E28370598}">
+
+    <div class="donate__fundraise-icon">
+        
+
+
+
+
+
+<a class="fr-digital-badge" href="https://www.fundraisingregulator.org.uk/validate?registrant=TEARFUND">
+    <img src="./Lent Appeal - Tearfund_files/white" alt="Fundraising Regulator badge with validation link" loading="lazy">
+</a>
+
+    </div>
+
+</div>
+</form>    <script nonce="">function donateWidget(n){var t=0;return{type:n,monthly:n.indexOf("monthly")!==-1,showFrequencySelection:n==="monthly-priority"||n==="one-off-priority",amount:1,amountMonthly:1,amountOnce:1,customAmount:"",monthlyUpsell:window.sessionStorage.getItem("monthlyUpsell")?!1:!0,cancelMonthlyUpsell:function(){window.sessionStorage.setItem("monthlyUpsell","no-show");this.monthlyUpsell=!1},checkMonthlyUpsell:function(){this.monthlyUpsell=window.sessionStorage.getItem("monthlyUpsell")?!1:!0},enterCustomAmount:function(n){var u,f,e=n.target,r=(f=(u=e.parentNode)===null||u===void 0?void 0:u.parentNode)===null||f===void 0?void 0:f.querySelectorAll(".donate__radio--amount"),i;if(r){for(i=0;i<r.length;i++)r[i].checked&&(t=i);r[t].checked=e.value?!1:!0}},setDefaultAmounts:function(n,t){this.amountMonthly=parseInt(n);this.amountOnce=parseInt(t);this.resetAmount()},resetAmount:function(){this.amount=this.monthly?this.amountMonthly:this.amountOnce}}}(function(){var i,u=3,n=(i=document.currentScript)===null||i===void 0?void 0:i.parentNode,f=function(){var t=n===null||n===void 0?void 0:n.querySelector(".donate-widget__main-img"),i;t&&(i=function(){var n=!1;return function(){window.setTimeout(function(){n||(t.style.transitionDuration="".concat(u,"s"),t.classList.remove("motion-safe:scale-120"),window.setTimeout(function(){t.style.transitionDuration="0s"},u*1e3),n=!0)},500)}}(),t.complete?i():t.addEventListener("load",i))},t=function(){return window.innerWidth<768?n===null||n===void 0?void 0:n.querySelector("form"):n===null||n===void 0?void 0:n.querySelector('button[type="submit"]')}(),r;t?(r=new IntersectionObserver(function(){if(t){var n=t.getBoundingClientRect();n.bottom>0&&n.top<window.innerHeight&&(r.unobserve(t),f())}}),r.observe(t)):f()})();window.addEventListener("DOMContentLoaded",function(){var n=document.querySelectorAll(".donate-secondary_text"),t=function(){n.forEach(function(n){var t=n===null||n===void 0?void 0:n.textContent;t&&n&&(n.innerHTML=t.replace(/\b(double|doubled)\b/gi,function(n){return'<span class="text-yellow">'.concat(n,"<\/span>")}))})};n&&t()})</script>
+
+
+</div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="navi_cards bg-lightblue pb-48 pt-40 space-above-56 md:pb-56 md:pt-48 md:space-above-64 lg:pb-80 lg:pt-64 lg:space-above-80 overflow-hidden px-24 relative md:px-0 ">
+
+    <div class="md:grid">
+        <div class="md:start-4 lg:start-6 lg:span-15 md:span-19">
+            <h2 class="text-darknavy text-30 lg:text-40 lg:text-center">Find out more</h2>
+            <div class="bg-blue h-4 mt-12 w-48 lg:h-6 lg:mt-20 lg:w-64 lg:mx-auto"></div>
+        </div>
+    </div>
+    <div class="md:grid">
+        <p class="mt-24 text-20 text-darknavy md:mt-24 lg:mt-40 md:span-19 md:start-4 lg:font-normal lg:span-15 lg:text-26 lg:start-6 lg:text-center">Discover more about Tearfund and how you can get involved with our work around the world.</p>
+    </div>
+<ul class="navicard-container-mobile mt-32 md:hidden" role="list">
+
+
+
+
+
+
+
+
+<li class="relative mt-32 z-10 first:mt-0">
+
+<a class="bg-white block border-2 border-compnavy border-solid flex flex-col focus-large h-full overflow-hidden passes-hover relative rounded-6 z-10 lg:rounded-10 lg:hover:shadow-yellow-hover" href="https://www.tearfund.org/about-us/what-we-do">
+
+
+
+
+
+
+<div class="navcard-portrait-inner overflow-hidden relative -mt-1 pt-16-9">
+<div class="absolute flex inset-0 justify-center ">
+<picture>
+    <source media="(max-width: 2559px)" srcset="https://res.cloudinary.com/tearfund/image/fetch/c_scale,w_702/f_auto/https://www.tearfund.org/-/media/tearfund/images/about-us/what-we-do/artboard-1---what-we-do.png 1x, https://res.cloudinary.com/tearfund/image/fetch/c_scale,w_1404/f_auto/https://www.tearfund.org/-/media/tearfund/images/about-us/what-we-do/artboard-1---what-we-do.png 2x">
+    <source media="(min-width: 2560px)" srcset="https://res.cloudinary.com/tearfund/image/fetch/c_scale,w_1053/f_auto/https://www.tearfund.org/-/media/tearfund/images/about-us/what-we-do/artboard-1---what-we-do.png 1x, https://res.cloudinary.com/tearfund/image/fetch/c_scale,w_2106/f_auto/https://www.tearfund.org/-/media/tearfund/images/about-us/what-we-do/artboard-1---what-we-do.png 2x">
+    <img class="block motion-safe:duration-500  object-cover w-full lg:motion-safe:hover:scale-110 h-auto min-h-full" src="./Lent Appeal - Tearfund_files/artboard-1---what-we-do.png" data-alt="Picture of woman holding a baby" alt="" loading="lazy">
+</picture>
+</div>
+</div>
+
+
+<div class="card-portrait-inner-content flex flex-col flex-grow justify-between px-20 pb-32 pt-20 lg:px-24">
+
+<div>
+
+
+
+    <h3 class="mt-8 text-26 text-darkgrey lg:mb-4 lg:mt-8 lg:text-30 hover:text-blue">
+        
+            What we
+            <span class="inline-block">
+                do
+            </span>
+    </h3>
+
+<p class="mt-16 text-18 text-midgrey lg:mb-8 lg:mt-20 lg:text-20" data-ref="synopsis">We work with local churches and organisations in more than 50 countries to tackle the complex challenges of poverty.</p>
+
+
+
+</div>
+
+<div>
+
+</div>
+
+</div>
+
+</a>
+
+</li>
+
+
+
+
+
+<li class="relative mt-32 z-10 first:mt-0">
+
+<a class="bg-white block border-2 border-compnavy border-solid flex flex-col focus-large h-full overflow-hidden passes-hover relative rounded-6 z-10 lg:rounded-10 lg:hover:shadow-yellow-hover" href="https://www.tearfund.org/about-us/our-vision-and-values">
+
+
+
+
+
+
+<div class="navcard-portrait-inner overflow-hidden relative -mt-1 pt-16-9">
+<div class="absolute flex inset-0 justify-center ">
+<picture>
+    <source media="(max-width: 2559px)" srcset="https://res.cloudinary.com/tearfund/image/fetch/c_scale,w_702/f_auto/https://www.tearfund.org/-/media/tearfund/images/about-us/our-mission/our-vision-and-values/ourvisionandvalues-basicbanner-rs108607-credittompricetearfund.jpg 1x, https://res.cloudinary.com/tearfund/image/fetch/c_scale,w_1404/f_auto/https://www.tearfund.org/-/media/tearfund/images/about-us/our-mission/our-vision-and-values/ourvisionandvalues-basicbanner-rs108607-credittompricetearfund.jpg 2x">
+    <source media="(min-width: 2560px)" srcset="https://res.cloudinary.com/tearfund/image/fetch/c_scale,w_1053/f_auto/https://www.tearfund.org/-/media/tearfund/images/about-us/our-mission/our-vision-and-values/ourvisionandvalues-basicbanner-rs108607-credittompricetearfund.jpg 1x, https://res.cloudinary.com/tearfund/image/fetch/c_scale,w_2106/f_auto/https://www.tearfund.org/-/media/tearfund/images/about-us/our-mission/our-vision-and-values/ourvisionandvalues-basicbanner-rs108607-credittompricetearfund.jpg 2x">
+    <img class="block motion-safe:duration-500  object-cover w-full lg:motion-safe:hover:scale-110 h-auto min-h-full" src="./Lent Appeal - Tearfund_files/ourvisionandvalues-basicbanner-rs108607-credittompricetearfund.jpg" data-credit="Tom Price/Tearfund" data-resource-id="RS108607" data-alt="A man working at a sewing machine" alt="" loading="lazy">
+</picture>
+</div>
+</div>
+
+
+<div class="card-portrait-inner-content flex flex-col flex-grow justify-between px-20 pb-32 pt-20 lg:px-24">
+
+<div>
+
+
+
+    <h3 class="mt-8 text-26 text-darkgrey lg:mb-4 lg:mt-8 lg:text-30 hover:text-blue">
+        
+            Vision and
+            <span class="inline-block">
+                values
+            </span>
+    </h3>
+
+<p class="mt-16 text-18 text-midgrey lg:mb-8 lg:mt-20 lg:text-20" data-ref="synopsis">Equipping 250,000 churches around the world to help communities lift themselves out of poverty.</p>
+
+
+
+</div>
+
+<div>
+
+</div>
+
+</div>
+
+</a>
+
+</li>
+
+
+
+
+
+<li class="relative mt-32 z-10 first:mt-0">
+
+<a class="bg-white block border-2 border-compnavy border-solid flex flex-col focus-large h-full overflow-hidden passes-hover relative rounded-6 z-10 lg:rounded-10 lg:hover:shadow-yellow-hover" href="https://www.tearfund.org/about-us/our-impact/tearfunds-impact-statements">
+
+
+
+
+
+
+<div class="navcard-portrait-inner overflow-hidden relative -mt-1 pt-16-9">
+<div class="absolute flex inset-0 justify-center ">
+<picture>
+    <source media="(max-width: 2559px)" srcset="https://res.cloudinary.com/tearfund/image/fetch/c_scale,w_702/f_auto/https://www.tearfund.org/-/media/tearfund/images/about-us/our-impact/tearfunds-impact-statements/tearfundimpactstatements_basicbanner_credit-thiombianobenjamintearfund.jpg 1x, https://res.cloudinary.com/tearfund/image/fetch/c_scale,w_1404/f_auto/https://www.tearfund.org/-/media/tearfund/images/about-us/our-impact/tearfunds-impact-statements/tearfundimpactstatements_basicbanner_credit-thiombianobenjamintearfund.jpg 2x">
+    <source media="(min-width: 2560px)" srcset="https://res.cloudinary.com/tearfund/image/fetch/c_scale,w_1053/f_auto/https://www.tearfund.org/-/media/tearfund/images/about-us/our-impact/tearfunds-impact-statements/tearfundimpactstatements_basicbanner_credit-thiombianobenjamintearfund.jpg 1x, https://res.cloudinary.com/tearfund/image/fetch/c_scale,w_2106/f_auto/https://www.tearfund.org/-/media/tearfund/images/about-us/our-impact/tearfunds-impact-statements/tearfundimpactstatements_basicbanner_credit-thiombianobenjamintearfund.jpg 2x">
+    <img class="block motion-safe:duration-500  object-cover w-full lg:motion-safe:hover:scale-110 h-auto min-h-full" src="./Lent Appeal - Tearfund_files/tearfundimpactstatements_basicbanner_credit-thiombianobenjamintearfund.jpg" data-credit="Thiombiano Benjamin / Tearfund" data-resource-id="1304126636" data-alt="Photo of woman walking through crops" alt="" loading="lazy">
+</picture>
+</div>
+</div>
+
+
+<div class="card-portrait-inner-content flex flex-col flex-grow justify-between px-20 pb-32 pt-20 lg:px-24">
+
+<div>
+
+
+
+    <h3 class="mt-8 text-26 text-darkgrey lg:mb-4 lg:mt-8 lg:text-30 hover:text-blue">
+        
+            Tearfund’s impact
+            <span class="inline-block">
+                statements
+            </span>
+    </h3>
+
+<p class="mt-16 text-18 text-midgrey lg:mb-8 lg:mt-20 lg:text-20" data-ref="synopsis">Find out about the impact Transforming Communities has had in communities across the world. </p>
+
+
+
+</div>
+
+<div>
+
+</div>
+
+</div>
+
+</a>
+
+</li>
+</ul>
+
+
+
+<ul class="navicard-container-tablet hidden relative mt-40 z-10 md:block lg:hidden" role="list">
+
+
+
+
+
+
+
+<li class="grid mt-32 relative first:mt-0">
+<a class="border-2 border-compnavy border-solid focus-large grid-10 overflow-hidden passes-hover rounded-8 span-19 start-4 lg:span-23 lg:start-2 lg:grid-12 z-10 hover:shadow-yellow-hover" href="https://www.tearfund.org/about-us/what-we-do">
+
+
+
+
+
+
+
+
+
+<div class="overflow-hidden card-landscape-inner pt-16-9 relative span-8 start-1 bg-bg-complightblue">
+<div class="absolute h-full top-0 w-full">
+<img class="block  motion-safe:duration-500 mx-auto object-cover motion-safe:hover:scale-110 h-full w-full" src="./Lent Appeal - Tearfund_files/artboard-1---what-we-do.png" data-alt="Picture of woman holding a baby" alt="" loading="lazy">
+</div>
+</div>
+
+
+<div class="bg-white card-landscape-inner-content items-center px-32 pb-40 pt-32 span-11 start-9 lg:span-15 md:flex lg:pb-48 lg:px-48">
+<div>
+
+
+    <h3 class="mt-8 text-26 text-darkgrey lg:text-30 hover:text-blue">
+        
+            What we
+            <span class="inline-block">
+                do
+            </span>
+    </h3>
+
+    <p class="mt-16 text-18 text-midgrey lg:text-20" data-ref="synopsis">We work with local churches and organisations in more than 50 countries to tackle the complex challenges of poverty.</p>
+
+
+
+
+</div>
+</div>
+
+</a>
+</li>
+
+
+
+
+
+<li class="grid mt-32 relative first:mt-0">
+<a class="border-2 border-compnavy border-solid focus-large grid-10 overflow-hidden passes-hover rounded-8 span-19 start-4 lg:span-23 lg:start-2 lg:grid-12 z-10 hover:shadow-yellow-hover" href="https://www.tearfund.org/about-us/our-vision-and-values">
+
+
+
+
+
+
+
+
+
+<div class="overflow-hidden card-landscape-inner pt-16-9 relative span-8 start-1 bg-bg-complightblue">
+<div class="absolute h-full top-0 w-full">
+<img class="block  motion-safe:duration-500 mx-auto object-cover motion-safe:hover:scale-110 h-full w-full" src="./Lent Appeal - Tearfund_files/ourvisionandvalues-basicbanner-rs108607-credittompricetearfund.jpg" data-credit="Tom Price/Tearfund" data-resource-id="RS108607" data-alt="A man working at a sewing machine" alt="" loading="lazy">
+</div>
+</div>
+
+
+<div class="bg-white card-landscape-inner-content items-center px-32 pb-40 pt-32 span-11 start-9 lg:span-15 md:flex lg:pb-48 lg:px-48">
+<div>
+
+
+    <h3 class="mt-8 text-26 text-darkgrey lg:text-30 hover:text-blue">
+        
+            Vision and
+            <span class="inline-block">
+                values
+            </span>
+    </h3>
+
+    <p class="mt-16 text-18 text-midgrey lg:text-20" data-ref="synopsis">Equipping 250,000 churches around the world to help communities lift themselves out of poverty.</p>
+
+
+
+
+</div>
+</div>
+
+</a>
+</li>
+
+
+
+
+
+<li class="grid mt-32 relative first:mt-0">
+<a class="border-2 border-compnavy border-solid focus-large grid-10 overflow-hidden passes-hover rounded-8 span-19 start-4 lg:span-23 lg:start-2 lg:grid-12 z-10 hover:shadow-yellow-hover" href="https://www.tearfund.org/about-us/our-impact/tearfunds-impact-statements">
+
+
+
+
+
+
+
+
+
+<div class="overflow-hidden card-landscape-inner pt-16-9 relative span-8 start-1 bg-bg-complightblue">
+<div class="absolute h-full top-0 w-full">
+<img class="block  motion-safe:duration-500 mx-auto object-cover motion-safe:hover:scale-110 h-full w-full" src="./Lent Appeal - Tearfund_files/tearfundimpactstatements_basicbanner_credit-thiombianobenjamintearfund.jpg" data-credit="Thiombiano Benjamin / Tearfund" data-resource-id="1304126636" data-alt="Photo of woman walking through crops" alt="" loading="lazy">
+</div>
+</div>
+
+
+<div class="bg-white card-landscape-inner-content items-center px-32 pb-40 pt-32 span-11 start-9 lg:span-15 md:flex lg:pb-48 lg:px-48">
+<div>
+
+
+    <h3 class="mt-8 text-26 text-darkgrey lg:text-30 hover:text-blue">
+        
+            Tearfund’s impact
+            <span class="inline-block">
+                statements
+            </span>
+    </h3>
+
+    <p class="mt-16 text-18 text-midgrey lg:text-20" data-ref="synopsis">Find out about the impact Transforming Communities has had in communities across the world. </p>
+
+
+
+
+</div>
+</div>
+
+</a>
+</li>
+</ul>
+
+
+
+<div class="navicard-container-desktop hidden mt-8 relative z-10 lg:block">
+    <div class="grid">
+
+        <ul class="flex flex-wrap items-stretch span-23 start-2" role="list">
+
+            
+
+
+
+
+
+<li class="mt-32 navi_cards__card-3 w-1/3 lg:mt-48">
+
+<a class="bg-white block border-2 border-compnavy border-solid flex flex-col focus-large h-full overflow-hidden passes-hover relative rounded-6 z-10 lg:rounded-10 lg:hover:shadow-yellow-hover" href="https://www.tearfund.org/about-us/what-we-do">
+
+
+
+
+
+
+<div class="navcard-portrait-inner overflow-hidden relative -mt-1 pt-16-9">
+<div class="absolute flex inset-0 justify-center ">
+<picture>
+    <source media="(max-width: 2559px)" srcset="https://res.cloudinary.com/tearfund/image/fetch/c_scale,w_702/f_auto/https://www.tearfund.org/-/media/tearfund/images/about-us/what-we-do/artboard-1---what-we-do.png 1x, https://res.cloudinary.com/tearfund/image/fetch/c_scale,w_1404/f_auto/https://www.tearfund.org/-/media/tearfund/images/about-us/what-we-do/artboard-1---what-we-do.png 2x">
+    <source media="(min-width: 2560px)" srcset="https://res.cloudinary.com/tearfund/image/fetch/c_scale,w_1053/f_auto/https://www.tearfund.org/-/media/tearfund/images/about-us/what-we-do/artboard-1---what-we-do.png 1x, https://res.cloudinary.com/tearfund/image/fetch/c_scale,w_2106/f_auto/https://www.tearfund.org/-/media/tearfund/images/about-us/what-we-do/artboard-1---what-we-do.png 2x">
+    <img class="block motion-safe:duration-500  object-cover w-full lg:motion-safe:hover:scale-110 h-auto min-h-full" src="./Lent Appeal - Tearfund_files/artboard-1---what-we-do.png" data-alt="Picture of woman holding a baby" alt="" loading="lazy">
+</picture>
+</div>
+</div>
+
+
+<div class="card-portrait-inner-content flex flex-col flex-grow justify-between px-20 pb-32 pt-20 lg:px-24">
+
+<div>
+
+
+
+    <h3 class="mt-8 text-26 text-darkgrey lg:mb-4 lg:mt-8 lg:text-30 hover:text-blue">
+        
+            What we
+            <span class="inline-block">
+                do
+            </span>
+    </h3>
+
+<p class="mt-16 text-18 text-midgrey lg:mb-8 lg:mt-20 lg:text-20" data-ref="synopsis">We work with local churches and organisations in more than 50 countries to tackle the complex challenges of poverty.</p>
+
+
+
+</div>
+
+<div>
+
+</div>
+
+</div>
+
+</a>
+
+</li>
+
+
+
+
+
+<li class="mt-32 navi_cards__card-3 w-1/3 lg:mt-48">
+
+<a class="bg-white block border-2 border-compnavy border-solid flex flex-col focus-large h-full overflow-hidden passes-hover relative rounded-6 z-10 lg:rounded-10 lg:hover:shadow-yellow-hover" href="https://www.tearfund.org/about-us/our-vision-and-values">
+
+
+
+
+
+
+<div class="navcard-portrait-inner overflow-hidden relative -mt-1 pt-16-9">
+<div class="absolute flex inset-0 justify-center ">
+<picture>
+    <source media="(max-width: 2559px)" srcset="https://res.cloudinary.com/tearfund/image/fetch/c_scale,w_702/f_auto/https://www.tearfund.org/-/media/tearfund/images/about-us/our-mission/our-vision-and-values/ourvisionandvalues-basicbanner-rs108607-credittompricetearfund.jpg 1x, https://res.cloudinary.com/tearfund/image/fetch/c_scale,w_1404/f_auto/https://www.tearfund.org/-/media/tearfund/images/about-us/our-mission/our-vision-and-values/ourvisionandvalues-basicbanner-rs108607-credittompricetearfund.jpg 2x">
+    <source media="(min-width: 2560px)" srcset="https://res.cloudinary.com/tearfund/image/fetch/c_scale,w_1053/f_auto/https://www.tearfund.org/-/media/tearfund/images/about-us/our-mission/our-vision-and-values/ourvisionandvalues-basicbanner-rs108607-credittompricetearfund.jpg 1x, https://res.cloudinary.com/tearfund/image/fetch/c_scale,w_2106/f_auto/https://www.tearfund.org/-/media/tearfund/images/about-us/our-mission/our-vision-and-values/ourvisionandvalues-basicbanner-rs108607-credittompricetearfund.jpg 2x">
+    <img class="block motion-safe:duration-500  object-cover w-full lg:motion-safe:hover:scale-110 h-auto min-h-full" src="./Lent Appeal - Tearfund_files/ourvisionandvalues-basicbanner-rs108607-credittompricetearfund.jpg" data-credit="Tom Price/Tearfund" data-resource-id="RS108607" data-alt="A man working at a sewing machine" alt="" loading="lazy">
+</picture>
+</div>
+</div>
+
+
+<div class="card-portrait-inner-content flex flex-col flex-grow justify-between px-20 pb-32 pt-20 lg:px-24">
+
+<div>
+
+
+
+    <h3 class="mt-8 text-26 text-darkgrey lg:mb-4 lg:mt-8 lg:text-30 hover:text-blue">
+        
+            Vision and
+            <span class="inline-block">
+                values
+            </span>
+    </h3>
+
+<p class="mt-16 text-18 text-midgrey lg:mb-8 lg:mt-20 lg:text-20" data-ref="synopsis">Equipping 250,000 churches around the world to help communities lift themselves out of poverty.</p>
+
+
+
+</div>
+
+<div>
+
+</div>
+
+</div>
+
+</a>
+
+</li>
+
+
+
+
+
+<li class="mt-32 navi_cards__card-3 w-1/3 lg:mt-48">
+
+<a class="bg-white block border-2 border-compnavy border-solid flex flex-col focus-large h-full overflow-hidden passes-hover relative rounded-6 z-10 lg:rounded-10 lg:hover:shadow-yellow-hover" href="https://www.tearfund.org/about-us/our-impact/tearfunds-impact-statements">
+
+
+
+
+
+
+<div class="navcard-portrait-inner overflow-hidden relative -mt-1 pt-16-9">
+<div class="absolute flex inset-0 justify-center ">
+<picture>
+    <source media="(max-width: 2559px)" srcset="https://res.cloudinary.com/tearfund/image/fetch/c_scale,w_702/f_auto/https://www.tearfund.org/-/media/tearfund/images/about-us/our-impact/tearfunds-impact-statements/tearfundimpactstatements_basicbanner_credit-thiombianobenjamintearfund.jpg 1x, https://res.cloudinary.com/tearfund/image/fetch/c_scale,w_1404/f_auto/https://www.tearfund.org/-/media/tearfund/images/about-us/our-impact/tearfunds-impact-statements/tearfundimpactstatements_basicbanner_credit-thiombianobenjamintearfund.jpg 2x">
+    <source media="(min-width: 2560px)" srcset="https://res.cloudinary.com/tearfund/image/fetch/c_scale,w_1053/f_auto/https://www.tearfund.org/-/media/tearfund/images/about-us/our-impact/tearfunds-impact-statements/tearfundimpactstatements_basicbanner_credit-thiombianobenjamintearfund.jpg 1x, https://res.cloudinary.com/tearfund/image/fetch/c_scale,w_2106/f_auto/https://www.tearfund.org/-/media/tearfund/images/about-us/our-impact/tearfunds-impact-statements/tearfundimpactstatements_basicbanner_credit-thiombianobenjamintearfund.jpg 2x">
+    <img class="block motion-safe:duration-500  object-cover w-full lg:motion-safe:hover:scale-110 h-auto min-h-full" src="./Lent Appeal - Tearfund_files/tearfundimpactstatements_basicbanner_credit-thiombianobenjamintearfund.jpg" data-credit="Thiombiano Benjamin / Tearfund" data-resource-id="1304126636" data-alt="Photo of woman walking through crops" alt="" loading="lazy">
+</picture>
+</div>
+</div>
+
+
+<div class="card-portrait-inner-content flex flex-col flex-grow justify-between px-20 pb-32 pt-20 lg:px-24">
+
+<div>
+
+
+
+    <h3 class="mt-8 text-26 text-darkgrey lg:mb-4 lg:mt-8 lg:text-30 hover:text-blue">
+        
+            Tearfund’s impact
+            <span class="inline-block">
+                statements
+            </span>
+    </h3>
+
+<p class="mt-16 text-18 text-midgrey lg:mb-8 lg:mt-20 lg:text-20" data-ref="synopsis">Find out about the impact Transforming Communities has had in communities across the world. </p>
+
+
+
+</div>
+
+<div>
+
+</div>
+
+</div>
+
+</a>
+
+</li>
+        </ul>
+
+    </div>
+</div>
+
+
+
+        
+</section>
+
+<script nonce="">"use strict";!function(){var e=document.querySelectorAll(".navi-cards__img-landscape"),t=function(){for(var t=0;t<e.length;t++)e[t].style.minHeight=Math.floor(e[t].offsetWidth/16*9)+"px"};window.addEventListener("resize",t),t()}();</script>
+
+
+
+
+
+
+<section class="grid items-center space-below pt-48 lg:pt-64">
+<div class="bg-lightblue px-24 pb-40 pt-24 rounded-6 span-23 start-2 md:grid-10 md:pt-40 md:px-0 md:span-19 md:start-4 lg:grid-12 lg:py-48 lg:span-23 lg:start-2">
+
+    <div class="flex items-center md:px-40 md:span-10 md:start-1 lg:pl-64 lg:pr-48 lg:span-8">
+            <img class="mb-16 object-cover rounded-6 w-full md:mb-0 md:h-full md:rounded-8 md:w-full lg:h-auto lg:rounded-10" src="./Lent Appeal - Tearfund_files/stay-in-touch-banner2.jpg" alt="Illustration of a person wearing a headset, sitting at a desk with a laptop, and a speech bubble indicating communication" loading="lazy">
+    </div>
+    <div class="pt-8 md:flex md:flex-col md:justify-center md:pb-8 md:pr-40 md:pt-4 md:span-9 md:start-11 lg:pb-16 lg:pr-0 lg:pt-12 lg:span-13 lg:start-9">
+        <h2 class="text-26 lg:text-30">Need help with something?</h2>
+        <p class="campaign-help__text body-text mt-16 text-18 lg:text-20">If you have any questions, please email <a rel="noopener noreferrer" href="mailto:info@tearfund.org" target="_blank">info@tearfund.org</a> or contact our friendly Supporter Care Team on&nbsp;<a href="tel:02039063906">020 3906 3906</a>.</p>
+    </div>
+
+</div>
+</section>
+
+
+    
+
+
+
+
+
+<section class="grid mb-48 mt-64 md:mb-56 md:my-56 lg:mb-64 lg:mt-72">
+
+<div class="border-2 border-purple border-solid pb-40 relative rounded-8 span-23 start-2 text-center lg:pb-56 lg:rounded-10 lg:text-left">
+
+
+<div class="absolute flex justify-center top-0 w-full lg:justify-start">
+    <img class="story-share-arrow-sm block lg:hidden" src="./Lent Appeal - Tearfund_files/Share-Graphic-84px.svg" alt="" loading="lazy">
+    <img class="story-share-arrow-lg hidden lg:block" src="./Lent Appeal - Tearfund_files/Share-Graphic-104px.svg" alt="" loading="lazy">
+</div>
+
+<div class="mt-64 pt-4 px-24 md:grid md:grid-12 md:mt-72 lg:mt-48">
+
+    <div class="md:span-19 md:start-3 lg:span-11 lg:start-3">
+        <h2 class="text-26 md:text-30 lg:text-40">Share this page</h2>
+        <p class="mt-16 text-18 lg:mt-24 lg:text-20">Share this page to spread the word and help support those in need.</p>
+    </div>
+
+    <div class="hidden justify-center py-8 lg:flex lg:start-15">
+        <div class="bg-purple h-full w-2"></div>
+    </div>
+
+    <div class="md:row-start-2 md:span-19 md:start-3 lg:flex lg:items-center lg:row-start-1 lg:span-7 lg:start-17">
+        <div>
+            <h3 class="font-bold mt-24 text-20 text-purple md:text-22 lg:mt-0">Share on</h3>
+            <ul class="mt-8 lg:mt-12" role="list">
+                <li class="inline-block mr-4">
+                    
+                    <a class="button block border-0 p-0 rounded-full text-purple hover:text-darknavy" href="mailto:?subject=Tearfund%3aLent%20Appeal&amp;body=https%3a%2f%2fwww.tearfund.org%2fcampaigns%2flent-appeal-ratna">
+                        <span class="sr-only">Email - Share this page</span>
+                        <svg class="align-bottom h-48 w-48 md:h-60 md:w-60" viewBox="0 0 60 60" focusable="false">
+                            <g transform="translate(2, 2)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <circle fill="currentColor" fill-rule="evenodd" cx="28" cy="28" r="28"></circle>
+                                <path fill="#FFFFFF" fill-rule="nonzero" d="M38.65,16 L17.35,16 C14.9475613,16 13,17.930772 13,20.3125 L13,34.6875 C13,37.069228 14.9475613,39 17.35,39 L38.65,39 C41.0524387,39 43,37.069228 43,34.6875 L43,20.3125 C43,17.930772 41.0524387,16 38.65,16 Z M37.6785,18.875 L28.1785,25.703125 L18.6785,18.875 L37.6785,18.875 Z M38.6,36.125 L17.6,36.125 C16.7715729,36.125 16.1,35.4814093 16.1,34.6875 L16.1,20.671875 L27.2,28.65 C27.4596443,28.8366193 27.7754447,28.9375 28.1,28.9375 C28.4245553,28.9375 28.7403557,28.8366193 29,28.65 L40.1,20.671875 L40.1,34.6875 C40.1,35.4814093 39.4284271,36.125 38.6,36.125 Z"></path>
+                            </g>
+                        </svg>
+                    </a>
+                </li>
+                <li class="inline-block mr-4">
+                    <a class="button block border-0 p-0 rounded-full text-purple hover:text-darknavy" href="https://www.facebook.com/sharer/sharer.php?u=https://www.tearfund.org/campaigns/lent-appeal-ratna">
+                        <span class="sr-only">Facebook - Share this page</span>
+                        <svg class="align-bottom h-48 w-48 md:h-60 md:w-60" viewBox="0 0 60 60" focusable="false">
+                            <g transform="translate(2, 2)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <path d="M56,28 C56,43.464 43.464,56 28,56 C12.536,56 0,43.464 0,28 C0,12.536 12.536,0 28,0 C43.464,0 56,12.536 56,28" fill="currentColor"></path>
+                                <path fill="#FFFFFF" d="M38.8994,36.0937 L40.1404,27.9997 L32.3754,27.9997 L32.3754,22.7477 C32.3754,20.5327 33.4604,18.3747 36.9374,18.3747 L40.4684,18.3747 L40.4684,11.4847 C40.4684,11.4847 37.2644,10.9377 34.2014,10.9377 C27.8054,10.9377 23.6254,14.8137 23.6254,21.8307 L23.6254,27.9997 L16.5154,27.9997 L16.5154,36.0937 L23.6254,36.0937 L23.6254,55.6597 C25.0504,55.8837 26.5114,55.9997 28.0004,55.9997 C29.4884,55.9997 30.9494,55.8837 32.3754,55.6597 L32.3754,36.0937 L38.8994,36.0937 Z"></path>
+                            </g>
+                        </svg>
+                    </a>
+                </li>
+                <li class="inline-block mr-4">
+                    <a class="button block border-0 p-0 rounded-full text-purple hover:text-darknavy" href="https://twitter.com/intent/tweet?url=https://www.tearfund.org/campaigns/lent-appeal-ratna&amp;text=Lent+Appeal">
+                        <span class="sr-only">X - Share this page</span>
+                        <svg class="align-bottom h-48 w-48 md:h-60 md:w-60" viewBox="0 0 60 60" focusable="false">
+                            <g transform="translate(2 3)">
+                                <circle fill="currentColor" class="st3" cx="28" cy="28" r="28"></circle>
+                                <path fill="#FFFFFF" class="st4" d="m31 26 9.6-11.2h-2.3l-8.3 9.7-6.7-9.7h-7.7l10.1 14.7-10.2 11.7h2.3l8.9-10.2 7.1 10.3h7.7l-10.5-15.3zm-3.2 3.6-1-1.5-8.2-11.7h3.5l6.6 9.4 1 1.5 8.6 12.2h-3.5l-7-9.9z"></path>
+                            </g>
+                        </svg>
+                    </a>
+                </li>
+                <li class="inline-block">
+                    <a class="button block border-0 p-0 rounded-full text-purple hover:text-darknavy" href="https://wa.me/?text=https://www.tearfund.org/campaigns/lent-appeal-ratna">
+                        <span class="sr-only">Whats App - Share this page</span>
+                        <svg class="align-bottom h-48 w-48 md:h-60 md:w-60" viewBox="0 0 60 60" focusable="false">
+                            <g transform="translate(2, 2)">
+                                <circle fill="currentColor" cx="28" cy="28" r="28"></circle>
+                                <g stroke-width="1" fill="none" transform="translate(13, 12)">
+                                    <path fill="#FFFFFF" d="M22.5944129,18.6600172 C22.2088735,18.4671365 20.3134344,17.534473 19.9600048,17.4057379 C19.6065752,17.2770768 19.3495489,17.2127833 19.0925227,17.5986186 C18.8354964,17.9846019 18.0966754,18.8530458 17.871685,19.110442 C17.6468425,19.3676162 17.421926,19.399948 17.0364606,19.2069193 C16.6508473,19.0138907 15.4085537,18.6068215 13.9359427,17.2932057 C12.7897566,16.2709456 12.0160143,15.0084539 11.7910979,14.6223967 C11.5662554,14.2364874 11.7672005,14.0278477 11.9602291,13.8355589 C12.1336516,13.6628024 12.3457685,13.3852081 12.5385012,13.1601437 C12.7313079,12.9350053 12.7955274,12.7740864 12.9240406,12.5169862 C13.0525537,12.25959 12.9883341,12.0344516 12.8919308,11.8414969 C12.7955274,11.6485422 12.0244487,9.75073556 11.7032029,8.97869499 C11.3902434,8.22707446 11.072401,8.32887876 10.8357208,8.31689308 C10.6111002,8.30572124 10.353778,8.3033537 10.0968258,8.3033537 C9.83979952,8.3033537 9.42207637,8.39983103 9.06872076,8.78574033 C8.71529117,9.17179761 7.71929594,10.1045351 7.71929594,12.0021938 C7.71929594,13.8999265 9.10083055,15.7331437 9.29363723,15.9904659 C9.48636993,16.2478621 12.0122411,20.1420243 15.8798425,21.8121031 C16.7997064,22.2093322 17.5178854,22.4466043 18.0777351,22.6241699 C19.0013723,22.9177451 19.8418496,22.8763131 20.5060931,22.7770243 C21.2468377,22.6663418 22.7871456,21.8443609 23.1084654,20.9438072 C23.4297112,20.0431055 23.4297112,19.2712129 23.3333079,19.110442 C23.2369785,18.9495971 22.9799523,18.8530458 22.5944129,18.6600172 M15.5597064,28.2652081 L15.5545274,28.2652081 C13.2532768,28.2643203 10.9961217,27.6460959 9.02699284,26.4775661 L8.55873747,26.1996019 L3.70475895,27.4728955 L5.0003222,22.7403274 L4.69542721,22.2551294 C3.41162768,20.2131986 2.73362291,17.8532773 2.7345837,15.4299504 C2.73739618,8.35884296 8.49067064,2.60601241 15.5648115,2.60601241 C18.9903484,2.60719618 22.2104272,3.94300764 24.6318305,6.36714845 C27.0531599,8.79121527 28.385864,12.0135136 28.3846071,15.4402344 C28.3817208,22.5119337 22.6284463,28.2652081 15.5597064,28.2652081 M26.4746659,4.52512697 C23.5614797,1.60853747 19.6872936,0.0016424821 15.5595585,1.4797136e-05 C7.05468258,1.4797136e-05 0.13273031,6.92144916 0.129326969,15.4289146 C0.128217184,18.1484802 0.838701671,20.8029384 2.18901432,23.1430315 L0,31.1387379 L8.17970883,28.9930053 C10.4334606,30.2222773 12.9709475,30.8702439 15.5534177,30.8711317 L15.5597064,30.8711317 L15.5597804,30.8711317 C24.0637685,30.8711317 30.9863866,23.9489575 30.9897911,15.4412702 C30.9913437,11.3184181 29.387852,7.44164248 26.4746659,4.52512697"></path>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+</div>
+
+</section>
+
+
+
+
+
+
+
+
+<section class="bg-blue grid pb-40 pt-48 relative space-above-48 md:py-56 md:space-above-56 lg:py-80 lg:space-above-80">
+
+
+<img class="absolute left-0 top-0 lg:hidden" src="./Lent Appeal - Tearfund_files/SubscribeTo_Mobile.png" srcset="/assets-frontend/images/map-graphics/SubscribeTo_Mobile.png 212w, /assets-frontend/images/map-graphics/SubscribeTo_Tablet.png 264w" alt="" sizes="(max-width: 767px) 212px, 264px" loading="lazy">
+
+
+<div class="absolute hidden inset-0 lg:grid">
+    <div class="overflow-hidden span-10 start-1">
+        <div class="items-end flex flex-col"> 
+            <picture>
+                <source media="(min-width: 1248px)" srcset="/assets-frontend/images/map-graphics/SubscribeTo_Desktop.png 1x, /assets-frontend/images/map-graphics/SubscribeTo_Desktop@2x.png 2x">
+                <img class="block" width="850" src="./Lent Appeal - Tearfund_files/SubscribeTo_Desktop.png" alt="" loading="lazy">
+            </picture>
+        </div>
+    </div>
+</div>
+
+
+<div class="bg-white pb-32 pt-24 px-24 relative rounded-8 span-23 start-2 text-center z-10 md:grid-10 md:pb-40 md:pt-32 md:px-0 md:span-19 md:start-4 lg:pb-48 lg:pt-40 lg:rounded-10 lg:span-23 lg:start-2">
+    <div class="md:span-15 md:start-3">
+            <img class="h-96 lg:h-104" src="./Lent Appeal - Tearfund_files/SubscribeTo-Email.svg" alt="" loading="lazy">
+        <h2 class="mt-16 px-8 text-26 lg:text-40">Get our email updates</h2>
+        <p class="mt-16 prevent-orphans text-18 lg:font-normal lg:mt-24 lg:text-26">Learn about our work and stay in touch with Tearfund. Hear about our news, activities and appeals by&nbsp;email.</p>
+<a class="button button--darknavy mt-24 mx-auto md:w-224 lg:mt-32 lg:w-296" href="https://www.tearfund.org/forms/news-and-stories-sign-up">					<span>Sign up now</span>
+            <span class="sr-only"> - Get our email updates</span>
+</a>			</div>
+</div>
+</section>
+
+    <div class="space-above-48 md:space-above-64 lg:space-above-80" aria-hidden="true"></div>
+</main>

@@ -33,7 +33,8 @@ body {
     box-shadow: -5px 0px 25px rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;
-    max-height: 80vh;
+    /* max-height: 80vh; */
+    height: 360px;
     margin-right: calc(-1 * var(--faq-panel-width)); /* e.g., margin-right: -350px; */
     opacity: 0;
     visibility: hidden; /* Hide from screen readers when closed */
@@ -83,7 +84,8 @@ body {
 }
 
 .faq-widget-container.is-open + .faq-overlay {
-    opacity: 1; visibility: visible;
+    /* opacity: 1;  */
+    visibility: visible;
 }
 
 /* ---faq search form Styling --- */

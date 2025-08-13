@@ -1,7 +1,6 @@
 (function(){
     // --- CSS ---
     const css = `
-    /* Your CSS from style.css goes here */
     :root { --faq-panel-width: 350px; }
     body { font-family: sans-serif; height: 200vh; }
     .faq-header { display: none; }
@@ -151,8 +150,8 @@
             }
         });
 
-        // --- Render FAQS ---
+          // --- Render FAQS ---
         renderFaqs(faqsContent.default);
-
+        
     })();
 })();

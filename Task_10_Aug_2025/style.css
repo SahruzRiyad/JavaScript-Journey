@@ -176,6 +176,7 @@ body {
 }
 
 .faq-arrow::after {
+    /* content: '>'; */
     transform: translateX(1px);
 }
 
